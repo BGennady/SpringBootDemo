@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@ConfigurationProperties
+@ConfigurationProperties ("profile")
 @RequestMapping("/")
 public class ProfileController {
     private SystemProfile profile;
